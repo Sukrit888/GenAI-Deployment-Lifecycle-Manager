@@ -73,10 +73,6 @@ _Add dashboard screenshots or gifs here_
 ## 👨‍💻 Author
 
 **Sukrit Kashyap Goswami**  
-[LinkedIn](https://www.linkedin.com/in/sukritgoswami) | [Email](mailto:sukrit@email.com)
+[LinkedIn](https://www.linkedin.com/in/sukritkashyapgoswami/) | [Email](mailto:6sukritgoswami@gmail.com)
 
 ---
-
-## 📘 License
-
-This project is open-sourced under the [MIT License](LICENSE).
