@@ -1,0 +1,55 @@
+{
+    "models": [
+        {
+            "name": "gpt-4-qa-v1",
+            "version": "v1.2",
+            "status": "Active",
+            "latency": 150,
+            "accuracy": 87.4,
+            "token_usage": 12500,
+            "inference_cost": 2.35,
+            "drift_score": 0.14,
+            "alerts": [
+                "Drift Detected",
+                "Accuracy Drop"
+            ],
+            "logs": [
+                {
+                    "action": "Deployed",
+                    "by": "mlops_bot",
+                    "date": "2025-06-25"
+                },
+                {
+                    "action": "Performance Alert",
+                    "by": "system",
+                    "date": "2025-06-28"
+                }
+            ]
+        },
+        {
+            "name": "code-gen-llm",
+            "version": "v0.9",
+            "status": "Archived",
+            "latency": 230,
+            "accuracy": 78.2,
+            "token_usage": 8100,
+            "inference_cost": 1.02,
+            "drift_score": 0.32,
+            "alerts": [
+                "High Latency"
+            ],
+            "logs": [
+                {
+                    "action": "Archived",
+                    "by": "admin",
+                    "date": "2025-06-15"
+                },
+                {
+                    "action": "Latency Alert",
+                    "by": "system",
+                    "date": "2025-06-10"
+                }
+            ]
+        }
+    ]
+}
