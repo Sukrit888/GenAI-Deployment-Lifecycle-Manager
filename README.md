@@ -26,10 +26,10 @@ This tool was developed to demonstrate product thinking for AI/ML lifecycle mana
 
 | File                  | Purpose                                          |
 |-----------------------|--------------------------------------------------|
-| `app.py`           | Main Streamlit dashboard script                  |
+| `app.py`              | Main Streamlit dashboard script                  |
 | `gdlm_dummy_data.json`| Model metadata, accuracy, alerts, logs, etc.     |
-| `gdlm_metrics_data.json`| 30-day metrics for latency and token usage   |
-| 'requirements.txt' | Required for Streamlit Cloud |
+| `gdlm_metrics_data.json` | 30-day metrics for latency and token usage   |
+| `requirements.txt`    | Python dependencies for Streamlit Cloud          |
 
 ---
 
@@ -42,26 +42,10 @@ This tool was developed to demonstrate product thinking for AI/ML lifecycle mana
 
 ---
 
-## 🧪 How to Run
+## 🌐 Live Demo
 
-```bash
-pip install streamlit
-streamlit run app_v2.py
-```
-
-If you're using Google Colab + ngrok, follow these steps:
-- Upload all three files
-- Set your ngrok authtoken
-- Launch using:
-  ```python
-  !streamlit run app_v2.py &
-  ```
-
----
-
-## 🌐 Demo
-
-🔗 **Live Demo:** [Available on request or paste your ngrok/Streamlit Cloud link here]
+🔗 [Launch the Dashboard](https://genai-deployment-dashboard-ystvexafusjkyuthujckwa.streamlit.app/)  
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black.svg)](https://genai-deployment-dashboard-ystvexafusjkyuthujckwa.streamlit.app/)
 
 ---
 
@@ -77,3 +61,9 @@ _Add dashboard screenshots or gifs here_
 [LinkedIn](https://www.linkedin.com/in/sukritkashyapgoswami/) | [Email](mailto:6sukritgoswami@gmail.com)
 
 ---
+
+## 📘 License
+
+This project is open-sourced under the [MIT License](LICENSE).
+
+
