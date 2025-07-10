@@ -26,7 +26,7 @@ This tool was developed to demonstrate product thinking for AI/ML lifecycle mana
 
 | File                  | Purpose                                          |
 |-----------------------|--------------------------------------------------|
-| `app_v2.py`           | Main Streamlit dashboard script                  |
+| `app.py`           | Main Streamlit dashboard script                  |
 | `gdlm_dummy_data.json`| Model metadata, accuracy, alerts, logs, etc.     |
 | `gdlm_metrics_data.json` | 30-day metrics for latency and token usage   |
 
