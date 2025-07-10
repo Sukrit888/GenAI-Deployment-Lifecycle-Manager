@@ -9,8 +9,8 @@ import altair as alt
 with open("gdlm_dummy_data.json", "r") as f:
     model_data = json.load(f)
 
-with open("gdlm_metrics_data_v2.json", "r") as f:
-    metrics_data = json.load(f)
+with open("gdlm_metrics_data.json", "r") as f:
+   metrics_data = json.load(f)
 
 # --- Sidebar Selections ---
 model_names = [model["name"] for model in model_data["models"]]
